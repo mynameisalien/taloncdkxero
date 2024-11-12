@@ -94,17 +94,17 @@ getgenv().Configs = {
         }
     },
     ["Theme"] = {
-        ["Enable"] = true,
+        ["Enable"] = false,
         ["Name"] = "Hutao", -- Hutao, Raiden, Ayaka, Yelan
         ["Custom Theme"] = {
-            ["Enable"] = true,
+            ["Enable"] = false,
             ["Text Color"] = Color3.fromRGB(231, 85, 88),
             ["Character Position"] = UDim2.new(0.563000023, 0, -0.174999997, 0)
         }
     },
     ["Webhook"] = {
-        ["Enable"] = false,
-        ["Url"] = "",
+        ["Enable"] = true,
+        ["Url"] = "https://discord.com/api/webhooks/1297206736758771853/U31LkDSSW4iKmjY91FM8jsJigTeTjr6blLDVJJASzUsNGujyiqs9Vk0ThFfRZ80G5J4T",
         ["Image"] = ""
     }
 }
